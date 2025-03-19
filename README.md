@@ -1,29 +1,32 @@
 # product-api
 This is a laravel api project. 
 
-## Laravel Full Setup
-# Laravel Project Create
+# Laravel Full Setup
+### Laravel Project Create
 composer create-project laravel/laravel product-api
 
-# Laravel api install
+### Laravel api install
 php artisan install:api
 
-# Run Project
+### Run Project
 php artisan serve
 
-# Controller Create
+### Controller Create
 php artisan make:controller ProductController
 php artisan make:controller MemberController
 
-# Controller create with all required resource
+### Controller create with all required resource
 php artisan make:controller IndustryController --resource
 
-# model create 
+### model create 
 php artisan make:model Product
 php artisan make:model Member
 php artisan make:model Industry
 
-# migrate tables
+### migrate tables
 php artisan migrate
 
+
+### xampp all table data
+sql_data_xampp/product_all.sql
 
